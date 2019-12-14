@@ -1,0 +1,78 @@
+.wrapper {
+    display: flex;  
+    /* display: -webkit-flex; */
+    flex-flow: column nowrap;
+    align-items:stretch;
+    text-align: center;
+    flex-grow:1;
+    height: 1000px;
+    flex-shrink:1;
+    background-color: rgb(245, 245, 255);
+  }
+  
+  .header {
+    background: rgb(179, 37, 37);
+    display: flex; 
+    flex-basis:110px;
+    align-items: center;
+  }
+  
+  .footer {
+    flex-basis:50px
+  }
+  .body {
+    display: flex;  
+    flex-flow: row nowrap;
+    align-items:stretch;
+    text-align: center;
+    flex-grow: 1;
+  }
+  .main {
+    flex-grow: 2;
+    max-width: 100%;
+  }
+  
+  .aside-left {
+    flex-grow: 0.15;
+  }
+  
+  .aside-right {
+    flex-grow: 0.15;
+  }
+  
+.Navbar{
+    display: flex;  
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.ProjectName{
+    display: flex;
+    flex-grow: 2;
+    text-align: center;
+    justify-content:center;
+    font-size:2.5em;
+}
+.Menue{
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    align-items:flex-end;
+    justify-content:flex-start;
+
+    
+}
+.MenueItem{
+    padding: 10px;
+    display: flex;
+    align-items:flex-end;
+    text-align: center;
+    font-size: 1.3em;
+}
+.tableColumn{
+  display: inline-flex;
+  flex-flow: column nowrap;
+}

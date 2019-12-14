@@ -1,0 +1,29 @@
+.login{
+    /* background-color: bisque; */
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+  }
+  
+  
+  .login-form {
+    /* background-color: rgb(214, 236, 240); */
+    justify-content: stretch;
+  } 
+  
+  .item {
+    /* background-color: darkgreen; */
+    display: inline-flex;
+    flex-flow: row nowrap;
+    font-size: 1.3em;
+    align-items: center;
+    margin: 15px;
+  }
+
+  .login-form-forgot {
+    float: right;
+  }
+  .login-form-button {
+    width: 100%;
+  }
+

@@ -1,0 +1,178 @@
+.HomePageBody{
+    flex-flow: column nowrap;
+    height: 780px;
+    width: 100%;
+
+}
+
+.searchbar{
+    /* background-color: cadetblue; */
+    display: inline-flex;
+    flex-flow: row nowrap;
+    padding: 30px;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    width:50%;
+    height:15%;
+    
+    
+}
+
+.searchbarInput{
+    /* background-color: rgb(0, 255, 115); */
+    display: inline-flex;
+    width: 30%;
+    outline-style: double ;
+    border: 3px solid rgb(157, 184, 206); 
+    font-size: 1.5em;
+}
+
+.searchbarButton{
+    width: 20%;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.5em;
+    height: 70%;
+}
+.SearchVideoContainer{
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+.SingleVideoContainer{
+    background-color: rgb(242, 246, 253);
+    display: inline-flex;
+    flex-flow: column wrap;
+    margin: 15px;
+    width: 340px;
+    height:350px;
+    padding-top: 10px;
+    box-shadow: 0 0 6px 2px rgb(148, 147, 196);
+}
+
+.SingleVideoDisplayr{
+    box-shadow: 0 0 6px 2px rgb(148, 147, 196);
+}
+
+/* 
+.SingleVideoInformation{
+    background-color: rgb(213, 231, 255);
+    display: flex;
+    flex-flow: column nowrap;
+    width: 320px;
+    height: 140px;
+    box-shadow: 0 0 2px 2px rgb(159, 173, 221);
+} */
+.SingleVideoTitle{
+
+    white-space:pre-line;
+    justify-content: flex-start;
+    height: 80px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+    overflow: hidden;
+    /* box-shadow: 0 0 6px 2px rgb(148, 147, 196); */
+}
+.SingleVideoOperation{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+.SingleVideoTag{
+    height: 100%;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.SingleVideoLike{
+    color: #81a2fa4f;
+    display: inline-flex;
+    
+}
+.TagButton{
+    background-color: rgb(119, 167, 255);
+    font-size: 1.1em;
+    font-weight: 400;
+    box-shadow: 0 0 6px 2px rgba(148, 147, 196, 0.808);
+}
+.TagWindow{
+    background-color: rgb(195, 215, 255);
+    box-shadow: 0 0 6px 2px rgba(117, 133, 163, 0.733);
+    margin: auto;
+    position: fixed;
+    top: 0;     
+    left: 0; 
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    height: 25%;
+    z-index:1;
+}
+.TagWindowOperation{
+    background-color: rgb(128, 186, 253);
+    height: 40px;   
+
+}
+.TagWindowTittle{
+    display: inline;
+    color: rgb(245, 247, 255);
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-weight: 500;  
+    padding: 10px;
+}
+.TagWindowClose{
+    margin: auto;
+    position: fixed;
+    right: 0;
+    width: 40px;
+    height: 40px;
+}
+.TagWindowEditWindow{
+    /* background-color: rgb(119, 167, 255); */
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    overflow-y: scroll;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+}
+.TagWindowSingleTag{
+    margin: 5px;
+    padding: 5px;
+    height: 35px;
+    font-size: 1.3em;
+}
+.TagWindowAddNowTag{
+    background-color: rgb(61, 116, 219);
+    margin: 5px;
+    padding: 5px;
+    height: 35px;
+    font-size: 1.3em;
+}
+
+.TagWindowNewTag{
+    margin: 5px;
+    padding: 5px;
+    height: 25px;
+    font-size: 1.5em;
+}
+
+/* .popWindow{
+    position:fixed;
+    z-index:500;
+    background-color: rgb(151, 177, 194);
+    width:250px;
+    border:1px solid #ccc;
+    box-shadow:1px 1px 1px black;
+    padding:16px;
+    left:15%;
+    box-sizing: border-box;
+    transition:ease-in-out;
+  } */
