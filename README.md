@@ -4,7 +4,7 @@
 ## Authors
 
 * **Sulong Zhou** - *Backend* - [MoonSulong](https://github.com/MoonSulong)
-* **Xi Luo** - *Frontend* - [xxhailee](https://github.com/xxhailee)
+* **Xi Luo** - *Frontend* - [sissilx5](https://github.com/sissilx5)
  
 ## Table of contents
 * [1. Project Description](#1-project-descriptions)
