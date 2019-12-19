@@ -1,5 +1,6 @@
 # YouTube-Education-Panel
 - An extensional feature of YouTube existing functionality for education services
+![demo](https://raw.githubusercontent.com/MoonSulong/YouTubeEducation/master/img/youtube.gif)
 
 ## Authors
 
