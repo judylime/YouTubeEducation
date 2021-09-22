@@ -4,9 +4,6 @@
 
 ## Authors
 
-* **Sulong Zhou** - *Backend* - [MoonSulong](https://github.com/MoonSulong)
-* **Xi Luo** - *Frontend* - [sissilx5](https://github.com/sissilx5)
- 
 ## Table of contents
 * [1. Project Description](#1-project-descriptions)
 * [2. Infrastructure Design](#2-infrastructure-design)
@@ -53,3 +50,4 @@ Designed and maintained an education panel web application for clients to search
 
 ## 4. Database Implementation
 - MySQL
+# EducationalVideoPanel
